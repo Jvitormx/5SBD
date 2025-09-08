@@ -1,4 +1,4 @@
--- Parte 2 – Funções de Grupo, COUNT, DISTINCT e NVL (Seção 8)
+-- Parte 2 – Funções de Grupo, COUNT, DISTINCT e NVL
 
 -- 4. Exiba o saldo total de todas as contas cadastradas.
 SELECT SUM(saldo) FROM conta;
