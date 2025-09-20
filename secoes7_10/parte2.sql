@@ -10,7 +10,7 @@ SELECT MAX(saldo) as "maior saldo", AVG(saldo) as "média de saldo" FROM conta;
 SELECT COUNT(*) FROM conta;
 
 -- 7. Liste o número de cidades distintas onde os clientes residem.
-SELECT DISTINCT cidade FROM cliente;
+SELECT COUNT(DISTINCT cidade) FROM cliente;
 
 -- 8. Exiba o número da conta e o saldo, substituindo valores nulos por zero.
 SELECT  NVL(conta_numero,0), NVL(saldo, 0) FROM conta;
